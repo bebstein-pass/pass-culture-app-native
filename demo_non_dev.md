@@ -87,6 +87,8 @@ _[Library Pro](https://www.figma.com/file/AEXCkb4KbUyPmB4BRFa88s/PRO---Library)_
 
 [Storybook Jeune](https://master--61fd537ecf081f003a135235.chromatic.com)
 
+<iframe src="https://master--61fd537ecf081f003a135235.chromatic.com"></iframe>
+
 --
 
 * Sidebar
@@ -114,8 +116,6 @@ _[Library Pro](https://www.figma.com/file/AEXCkb4KbUyPmB4BRFa88s/PRO---Library)_
     * background (dark-mode)
     * grille (16x16)
     * outline
-
-<iframe src="https://master--61fd537ecf081f003a135235.chromatic.com"></iframe>
 
 --
 
