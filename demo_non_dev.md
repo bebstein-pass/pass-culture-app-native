@@ -1,5 +1,6 @@
 ---
 title: Storybook / Chromatic
+# verticalSeparator: ^( ?| )----( ?| )$
 ---
 
 # Storybook / Chromatic
