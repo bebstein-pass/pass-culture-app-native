@@ -81,12 +81,15 @@
           ];
 
           shellHook = ''
-            export NODE=$(which node)
-
             # without this NODE_OPTIONS
             # yarn script fails with
             # error:0308010C:digital envelope routines::unsupported
             export NODE_OPTIONS="--openssl-legacy-provider"
+
+            eval "$(fnm env --use-on-cd)"
+            fnm use --install-if-missing
+
+            export NODE=$(which node)
           '';
         };
     });
