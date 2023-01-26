@@ -29,6 +29,16 @@
           npx_via_fnm = pkgs.writeShellScriptBin "npx" ''
             ${pkgs.fnm}/bin/fnm exec npx "$@"
           '';
+
+          yarn_from_env = pkgs.writeShellScriptBin "yarn" ''
+            # without this NODE_OPTIONS
+            # yarn script fails with
+            # error:0308010C:digital envelope routines::unsupported
+            export NODE_OPTIONS="--openssl-legacy-provider"
+
+            YARN_FROM_BREW="/usr/local/bin/yarn"
+            exec "$YARN_FROM_BREW" "$@"
+          '';
         in
         pkgs.mkShell {
           packages = with pkgs; [
@@ -48,44 +58,10 @@
             npm_via_fnm
             npx_via_fnm
 
-            # (yarn.override {
-            #   nodejs = nodejs-16_x;
-            # })
-            # (yarn.override {
-            #   nodejs = nodejs-18_x;
-            # })
-            # (yarn.override {
-            #   nodejs = node_via_fnm;
-            # })
-            yarn
-            # (yarn.override {
-            #   nodejs = pkgs.writeShellScriptBin "node" ''
-            #     /usr/bin/env node "$@"
-            #   '';
-            # })
-            # nodePackages.yarn
-            # (nodePackages.yarn.override {
-            #   nodejs = pkgs.writeShellScriptBin "node" ''
-            #     /usr/bin/env node "$@"
-            #   '';
-            # })
-            # (mkYarnPackage {
-            #   src = ./.;
-            #   sha1 = pkgs.fakeSha1;
-            #   extraBuildInputs = [
-            #     (pkgs.writeShellScriptBin "node" ''
-            #       /usr/bin/env node "$@"
-            #     '')
-            #   ];
-            # })
+            yarn_from_env
           ];
 
           shellHook = ''
-            # without this NODE_OPTIONS
-            # yarn script fails with
-            # error:0308010C:digital envelope routines::unsupported
-            export NODE_OPTIONS="--openssl-legacy-provider"
-
             eval "$(fnm env --use-on-cd)"
             fnm use --install-if-missing
 
