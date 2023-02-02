@@ -59,6 +59,8 @@
             npx_via_fnm
 
             yarn_from_env
+
+            shunit2
           ];
 
           shellHook = ''
