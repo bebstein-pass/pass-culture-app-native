@@ -61,6 +61,11 @@
             yarn_from_env
 
             shunit2
+
+            # end to end test
+            chromedriver
+            geckodriver
+            google-cloud-sdk
           ];
 
           shellHook = ''
