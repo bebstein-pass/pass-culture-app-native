@@ -23,7 +23,9 @@ const mockSearchHits: Offer[] = [...mockedAlgoliaResponse.hits, ...moreHitsForSi
 
 describe('<OfferBody /> - Analytics', () => {
   beforeAll(() => {
-    jest.useFakeTimers('legacy')
+    jest.useFakeTimers({
+      legacyFakeTimers: true,
+    })
   })
 
   const trigger = (component: ReactTestInstance) => {
