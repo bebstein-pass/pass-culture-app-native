@@ -1,19 +1,42 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "bundler@latest": {
+      "last_modified": "2023-08-30T00:25:28Z",
+      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#bundler",
+      "version": "2.4.19"
+    },
+    "chromedriver@latest": {
+      "last_modified": "2023-08-30T00:25:28Z",
+      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#chromedriver",
+      "version": "116.0.5845.96"
+    },
+    "geckodriver@latest": {
+      "last_modified": "2023-08-30T00:25:28Z",
+      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#geckodriver",
+      "version": "0.33.0"
+    },
+    "gitlab:pinage404/git-gamble#git-gamble": {},
     "nodejs@18.7.0": {
-      "last_modified": "2022-08-20T23:29:36Z",
-      "resolved": "github:NixOS/nixpkgs/07d2cffa61fbb4bd9dc2e0cb0bb4fe146d420bd6#nodejs",
+      "last_modified": "2022-08-24T15:05:37Z",
+      "resolved": "github:NixOS/nixpkgs/0e304ff0d9db453a4b230e9386418fd974d5804a#nodejs",
       "version": "18.7.0"
     },
+    "process-compose@latest": {
+      "last_modified": "2023-08-30T00:25:28Z",
+      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#process-compose",
+      "version": "0.60.0"
+    },
     "ruby@2.7.5": {
-      "last_modified": "2022-04-13T09:49:25Z",
+      "last_modified": "2022-04-17T11:15:39Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/0343e3415784b2cd9c68924294794f7dbee12ab3#ruby",
+      "resolved": "github:NixOS/nixpkgs/bd4dffcdb7c577d74745bd1eff6230172bd176d5#ruby",
       "version": "2.7.5"
     },
-    "yarn": {
-      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#yarn"
+    "yarn@latest": {
+      "last_modified": "2023-08-30T00:25:28Z",
+      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#yarn",
+      "version": "1.22.19"
     }
   }
 }

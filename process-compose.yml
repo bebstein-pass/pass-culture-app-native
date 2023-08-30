@@ -1,0 +1,31 @@
+version: "0.5"
+
+processes:
+  install_node_dependencies:
+    disabled: true
+    command: |
+      yarn install
+
+  install_node_dependencies_when_needed:
+    command: |
+      if [ ! -d node_modules/ ]; then
+        process-compose process start install_node_dependencies
+      fi
+
+  install_pod_dependencies:
+    disabled: true
+    working_dir: "./ios/"
+    command: |
+      bundle install
+      bundle exec pod install --repo-update
+
+  install_pod_dependencies_when_needed:
+    command: |
+      if [ ! -d ./Pods/ ]; then
+        process-compose process start install_pod_dependencies
+      fi
+    working_dir: "./ios/"
+
+  burn_everything_and_start_again:
+    disabled: true
+    command: npx rn-game-over --all
