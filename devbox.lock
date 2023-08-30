@@ -1,0 +1,19 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "nodejs@18.7.0": {
+      "last_modified": "2022-08-20T23:29:36Z",
+      "resolved": "github:NixOS/nixpkgs/07d2cffa61fbb4bd9dc2e0cb0bb4fe146d420bd6#nodejs",
+      "version": "18.7.0"
+    },
+    "ruby@2.7.5": {
+      "last_modified": "2022-04-13T09:49:25Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/0343e3415784b2cd9c68924294794f7dbee12ab3#ruby",
+      "version": "2.7.5"
+    },
+    "yarn": {
+      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#yarn"
+    }
+  }
+}
