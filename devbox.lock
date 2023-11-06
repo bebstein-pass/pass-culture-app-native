@@ -29,7 +29,7 @@
     },
     "ruby@2.7.5": {
       "last_modified": "2022-04-17T11:15:39Z",
-      "plugin_version": "0.0.1",
+      "plugin_version": "0.0.2",
       "resolved": "github:NixOS/nixpkgs/bd4dffcdb7c577d74745bd1eff6230172bd176d5#ruby",
       "version": "2.7.5"
     },
