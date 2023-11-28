@@ -7,11 +7,10 @@
     "bundler@latest",
     "yarn@latest",
     "chromedriver@latest",
-    "geckodriver@latest"
+    "geckodriver@latest",
+    "maestro@latest"
   ],
-  "shell": {
-    "init_hook": null
-  },
+  "shell": {},
   "nixpkgs": {
     "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
   }

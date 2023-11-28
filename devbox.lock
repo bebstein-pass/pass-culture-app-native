@@ -17,6 +17,11 @@
       "version": "0.33.0"
     },
     "gitlab:pinage404/git-gamble#git-gamble": {},
+    "maestro@latest": {
+      "last_modified": "2023-11-19T17:46:56Z",
+      "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#maestro",
+      "version": "1.34.1"
+    },
     "nodejs@18.7.0": {
       "last_modified": "2022-08-24T15:05:37Z",
       "resolved": "github:NixOS/nixpkgs/0e304ff0d9db453a4b230e9386418fd974d5804a#nodejs",
