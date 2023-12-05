@@ -8,7 +8,8 @@
     "yarn@latest",
     "chromedriver@latest",
     "geckodriver@latest",
-    "maestro@latest"
+    "maestro@latest",
+    "xcode-install@latest"
   ],
   "shell": {},
   "nixpkgs": {
