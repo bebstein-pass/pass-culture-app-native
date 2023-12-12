@@ -9,7 +9,8 @@
     "chromedriver@latest",
     "geckodriver@latest",
     "maestro@latest",
-    "xcode-install@latest"
+    "xcode-install@latest",
+    "jdk11@latest"
   ],
   "shell": {},
   "nixpkgs": {

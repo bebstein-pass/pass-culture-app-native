@@ -17,6 +17,11 @@
       "version": "0.33.0"
     },
     "gitlab:pinage404/git-gamble#git-gamble": {},
+    "jdk11@latest": {
+      "last_modified": "2023-11-23T16:10:41Z",
+      "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#jdk11",
+      "version": "11.0.19+7"
+    },
     "maestro@latest": {
       "last_modified": "2023-11-19T17:46:56Z",
       "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#maestro",
@@ -41,22 +46,7 @@
     "xcode-install@latest": {
       "last_modified": "2023-11-23T16:10:41Z",
       "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#xcode-install",
-      "source": "devbox-search",
-      "version": "2.6.8",
-      "systems": {
-        "aarch64-darwin": {
-          "store_path": "/nix/store/7mr39765ijx6zp2hkh3kf2sppn85d75p-xcode-install-2.6.8"
-        },
-        "aarch64-linux": {
-          "store_path": "/nix/store/nnm7fb6xpl8lvvkmk8lly3wwlw3rkb4g-xcode-install-2.6.8"
-        },
-        "x86_64-darwin": {
-          "store_path": "/nix/store/s8zkbhbf1vhsi19x5jid6jlpl3mx3kn2-xcode-install-2.6.8"
-        },
-        "x86_64-linux": {
-          "store_path": "/nix/store/axnrimb6bjkdazgnggqrv3g7vsq64yag-xcode-install-2.6.8"
-        }
-      }
+      "version": "2.6.8"
     },
     "yarn@latest": {
       "last_modified": "2023-08-30T00:25:28Z",
