@@ -27,10 +27,31 @@
       "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#maestro",
       "version": "1.34.1"
     },
-    "nodejs@18.7.0": {
-      "last_modified": "2022-08-24T15:05:37Z",
-      "resolved": "github:NixOS/nixpkgs/0e304ff0d9db453a4b230e9386418fd974d5804a#nodejs",
-      "version": "18.7.0"
+    "nodePackages_latest.yarn@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#nodePackages_latest.yarn",
+      "source": "devbox-search",
+      "version": "1.22.21"
+    },
+    "nodejs@20.10.0": {
+      "last_modified": "2023-11-24T11:02:37Z",
+      "resolved": "github:NixOS/nixpkgs/068bacb9b6fbee6a603d1b1f68d7cf032c4feed1#nodejs_20",
+      "source": "devbox-search",
+      "version": "20.10.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ya9wfsimhw3sjp7inn6kkn934i440kb8-nodejs-20.10.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/ryc5g0vdg8d3mm0ssawj27lqn5x238ji-nodejs-20.10.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/pq1p13a24628rxwf968nb3pfnpvpfy0r-nodejs-20.10.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/mih3j0yxng0xsad55787jqfbyi53rp0j-nodejs-20.10.0"
+        }
+      }
     },
     "process-compose@latest": {
       "last_modified": "2023-08-30T00:25:28Z",
@@ -47,11 +68,6 @@
       "last_modified": "2023-11-23T16:10:41Z",
       "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#xcode-install",
       "version": "2.6.8"
-    },
-    "yarn@latest": {
-      "last_modified": "2023-08-30T00:25:28Z",
-      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#yarn",
-      "version": "1.22.19"
     }
   }
 }

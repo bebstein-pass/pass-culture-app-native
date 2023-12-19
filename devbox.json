@@ -1,11 +1,11 @@
 {
   "packages": [
-    "nodejs@18.7.0",
+    "nodejs@20.10.0",
     "ruby@2.7.5",
     "gitlab:pinage404/git-gamble#git-gamble",
     "process-compose@latest",
     "bundler@latest",
-    "yarn@latest",
+    "nodePackages_latest.yarn@latest",
     "chromedriver@latest",
     "geckodriver@latest",
     "maestro@latest",
