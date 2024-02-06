@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "nodejs@20",
+    "nodePackages.yarn@latest"
+  ]
+}

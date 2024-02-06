@@ -38,7 +38,7 @@
 
             yarn_from_env
 
-            maestro
+            devbox
           ];
 
           shellHook = ''
