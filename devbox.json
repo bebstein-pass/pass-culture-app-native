@@ -10,7 +10,8 @@
     "geckodriver@latest",
     "maestro@latest",
     "xcode-install@latest",
-    "jdk11@latest"
+    "jdk11@latest",
+    "cocoapods@latest"
   ],
   "shell": {},
   "nixpkgs": {

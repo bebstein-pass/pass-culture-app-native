@@ -11,6 +11,20 @@
       "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#chromedriver",
       "version": "116.0.5845.96"
     },
+    "cocoapods@latest": {
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#cocoapods",
+      "source": "devbox-search",
+      "version": "1.15.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/rkma2q5cc1m4yxhcp2bhf20xbx0hijph-cocoapods-1.15.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/21cbdd90j5bl1smswf95yqh0i9agcq7y-cocoapods-1.15.1"
+        }
+      }
+    },
     "geckodriver@latest": {
       "last_modified": "2023-08-30T00:25:28Z",
       "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#geckodriver",
