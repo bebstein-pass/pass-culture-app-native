@@ -2,14 +2,41 @@
   "lockfile_version": "1",
   "packages": {
     "bundler@latest": {
-      "last_modified": "2023-08-30T00:25:28Z",
-      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#bundler",
-      "version": "2.4.19"
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#bundler",
+      "source": "devbox-search",
+      "version": "2.5.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/jpi5mf9pgl1n8v5c7829ckw680azad6p-bundler-2.5.5"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/kx7rp6mnyw4gd696rdzqycfhpma62j2c-bundler-2.5.5"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/6xyharaxdiiplfdi1l9b72y7wairy7mr-bundler-2.5.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/nfrdd8k4q5qwwhnghkvxaap96vlxmbmm-bundler-2.5.5"
+        }
+      }
     },
     "chromedriver@latest": {
-      "last_modified": "2023-08-30T00:25:28Z",
-      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#chromedriver",
-      "version": "116.0.5845.96"
+      "last_modified": "2024-02-21T16:29:05Z",
+      "resolved": "github:NixOS/nixpkgs/ac4c5a60bebfb783f1106d126b9f39cc8e809e0e#chromedriver",
+      "source": "devbox-search",
+      "version": "122.0.6261.57",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/v04kz7gyw6nfqkzikvz1hzasc4zp7lp7-chromedriver-122.0.6261.57"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/a7pnpp5038m4by8c57xdcyxbz4six7nj-chromedriver-122.0.6261.57"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/b0slzfd0kbnb1c3km9185kgzdrr366ld-chromedriver-122.0.6261.57"
+        }
+      }
     },
     "cocoapods@latest": {
       "last_modified": "2024-02-10T18:15:24Z",
@@ -26,20 +53,58 @@
       }
     },
     "geckodriver@latest": {
-      "last_modified": "2023-08-30T00:25:28Z",
-      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#geckodriver",
-      "version": "0.33.0"
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#geckodriver",
+      "source": "devbox-search",
+      "version": "0.34.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/pkszy8snvzs1smnnc2m49s8455n6ri3k-geckodriver-0.34.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/nl943vr2696aa1dh1pdzkr6610k1b4iv-geckodriver-0.34.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/sb7gn4r8fi5sfb612b687h599602z8lj-geckodriver-0.34.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/0qmba5hchr7qqwllcmsy5b13ay5qwa0v-geckodriver-0.34.0"
+        }
+      }
     },
-    "gitlab:pinage404/git-gamble#git-gamble": {},
     "jdk11@latest": {
-      "last_modified": "2023-11-23T16:10:41Z",
-      "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#jdk11",
-      "version": "11.0.19+7"
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#jdk11",
+      "source": "devbox-search",
+      "version": "11.0.22",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/jg1l0kac2mrs9f2khyzzq5ra8mwa826j-zulu-ca-jdk-11.0.22"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/apsgmz95l6l36z7irdnvvb6l0gjc2rcg-zulu-ca-jdk-11.0.22"
+        }
+      }
     },
     "maestro@latest": {
-      "last_modified": "2023-11-19T17:46:56Z",
-      "resolved": "github:NixOS/nixpkgs/0bf3f5cf6a98b5d077cdcdb00a6d4b3d92bc78b5#maestro",
-      "version": "1.34.1"
+      "last_modified": "2024-02-17T16:08:43Z",
+      "resolved": "github:NixOS/nixpkgs/52e1f314725b09b354336d17c7b8bd2442b7b8e4#maestro",
+      "source": "devbox-search",
+      "version": "1.36.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/b3003h5psavh4vk3rfrcxwn3zii3k38l-maestro-1.36.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/9d990vj7y9ar3cp4n1ibvn8j2frcc9v9-maestro-1.36.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/znlw4z32rfgjkqqdrxdmpr9isfkbw13p-maestro-1.36.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/6p56qhqkdp0lpxyw1mpckxildnrsdxpm-maestro-1.36.0"
+        }
+      }
     },
     "nodePackages_latest.yarn@latest": {
       "last_modified": "2023-12-13T22:54:10Z",
@@ -48,40 +113,85 @@
       "version": "1.22.21"
     },
     "nodejs@20.10.0": {
-      "last_modified": "2023-11-24T11:02:37Z",
-      "resolved": "github:NixOS/nixpkgs/068bacb9b6fbee6a603d1b1f68d7cf032c4feed1#nodejs_20",
+      "last_modified": "2024-01-14T03:55:27Z",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#nodejs_20",
       "source": "devbox-search",
       "version": "20.10.0",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/ya9wfsimhw3sjp7inn6kkn934i440kb8-nodejs-20.10.0"
+          "store_path": "/nix/store/m8s1dj96nbackrk4gk1bsn8hlfcggg4b-nodejs-20.10.0"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/ryc5g0vdg8d3mm0ssawj27lqn5x238ji-nodejs-20.10.0"
+          "store_path": "/nix/store/n0i45l9cma3yyv6jqkd450xa7aqlxa2m-nodejs-20.10.0"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/pq1p13a24628rxwf968nb3pfnpvpfy0r-nodejs-20.10.0"
+          "store_path": "/nix/store/ni7ks4fvk23gz4ik4x0kgpjmiqbzan30-nodejs-20.10.0"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/mih3j0yxng0xsad55787jqfbyi53rp0j-nodejs-20.10.0"
+          "store_path": "/nix/store/hdq16s6vq9smhmcyl4ipmwfp9f2558rc-nodejs-20.10.0"
         }
       }
     },
     "process-compose@latest": {
-      "last_modified": "2023-08-30T00:25:28Z",
-      "resolved": "github:NixOS/nixpkgs/a63a64b593dcf2fe05f7c5d666eb395950f36bc9#process-compose",
-      "version": "0.60.0"
+      "last_modified": "2024-02-15T12:53:33Z",
+      "resolved": "github:NixOS/nixpkgs/085589047343aad800c4d305cf7b98e8a3d51ae2#process-compose",
+      "source": "devbox-search",
+      "version": "0.85.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/2z9bjhljfbg5zxqa0wgc9yrslkaqzplq-process-compose-0.85.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/6c711qjsk2bp6rrvhclf40923p07b60f-process-compose-0.85.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/zjgkr8878azjl4rcj9imwysccmirsa24-process-compose-0.85.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/l3aal8y0hmc6jajr1q8ilkafiam21jsy-process-compose-0.85.0"
+        }
+      }
     },
     "ruby@2.7.5": {
-      "last_modified": "2022-04-17T11:15:39Z",
+      "last_modified": "2022-03-21T18:25:50Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/bd4dffcdb7c577d74745bd1eff6230172bd176d5#ruby",
-      "version": "2.7.5"
+      "resolved": "github:NixOS/nixpkgs/4c3c80df545ec5cb26b5480979c3e3f93518cbe5#ruby",
+      "source": "devbox-search",
+      "version": "2.7.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/inhgi4ksqzqnjk6v9fa49fgdf0zymmpn-ruby-2.7.5"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/0m1x14n35s91mj33jk0sa4y68i5hdcfk-ruby-2.7.5"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/dsnym6kh9jy2wl020jphwlm9kwp3w23p-ruby-2.7.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/sbnzvyv06x1j2n1aa4vizw0pm3lxsvl3-ruby-2.7.5"
+        }
+      }
     },
     "xcode-install@latest": {
-      "last_modified": "2023-11-23T16:10:41Z",
-      "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#xcode-install",
-      "version": "2.6.8"
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#xcode-install",
+      "source": "devbox-search",
+      "version": "2.6.8",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/31wbybi1ijhgczcd7h1lb40dyxpsr560-xcode-install-2.6.8"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/66vhsdsmclf3rcfhydrwxpy05yda36a3-xcode-install-2.6.8"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/n91lpkd2jcdi2b5x01l6nln8pj7pqb1m-xcode-install-2.6.8"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/n37rjpnka1qv91rk51hfnz41qpds1shq-xcode-install-2.6.8"
+        }
+      }
     }
   }
 }

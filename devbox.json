@@ -2,7 +2,6 @@
   "packages": [
     "nodejs@20.10.0",
     "ruby@2.7.5",
-    "gitlab:pinage404/git-gamble#git-gamble",
     "process-compose@latest",
     "bundler@latest",
     "nodePackages_latest.yarn@latest",
@@ -12,9 +11,5 @@
     "xcode-install@latest",
     "jdk11@latest",
     "cocoapods@latest"
-  ],
-  "shell": {},
-  "nixpkgs": {
-    "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
-  }
+  ]
 }
