@@ -2,107 +2,107 @@
   "lockfile_version": "1",
   "packages": {
     "bundler@latest": {
-      "last_modified": "2024-02-10T18:15:24Z",
-      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#bundler",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#bundler",
       "source": "devbox-search",
-      "version": "2.5.5",
+      "version": "2.5.6",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/jpi5mf9pgl1n8v5c7829ckw680azad6p-bundler-2.5.5"
+          "store_path": "/nix/store/bfrd9nvvsf479004wjyrpzwk1apg7ixk-bundler-2.5.6"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/kx7rp6mnyw4gd696rdzqycfhpma62j2c-bundler-2.5.5"
+          "store_path": "/nix/store/ng1jpbix8f1kmcmknfmjv3nyvr6imw1w-bundler-2.5.6"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/6xyharaxdiiplfdi1l9b72y7wairy7mr-bundler-2.5.5"
+          "store_path": "/nix/store/zw9w0gz4sl5aqlxc8j566szn9bccsa8b-bundler-2.5.6"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/nfrdd8k4q5qwwhnghkvxaap96vlxmbmm-bundler-2.5.5"
+          "store_path": "/nix/store/kk5yp658n29fvxg09ddm1x8k73fcdrj7-bundler-2.5.6"
         }
       }
     },
     "chromedriver@latest": {
-      "last_modified": "2024-02-21T16:29:05Z",
-      "resolved": "github:NixOS/nixpkgs/ac4c5a60bebfb783f1106d126b9f39cc8e809e0e#chromedriver",
+      "last_modified": "2024-02-28T16:16:04Z",
+      "resolved": "github:NixOS/nixpkgs/96990c69fd59e807cee8ff874d0526c70dffdf8f#chromedriver",
       "source": "devbox-search",
-      "version": "122.0.6261.57",
+      "version": "122.0.6261.94",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/v04kz7gyw6nfqkzikvz1hzasc4zp7lp7-chromedriver-122.0.6261.57"
+          "store_path": "/nix/store/wxs51y8f7gcqa3c94ih7c0sjvs4rybn4-chromedriver-122.0.6261.94"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/a7pnpp5038m4by8c57xdcyxbz4six7nj-chromedriver-122.0.6261.57"
+          "store_path": "/nix/store/ygc9g3xixw6l2h9qcj6chh109kd1zf9y-chromedriver-122.0.6261.94"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/b0slzfd0kbnb1c3km9185kgzdrr366ld-chromedriver-122.0.6261.57"
+          "store_path": "/nix/store/s5yl9l48hksmdsm0y1sc2pfhnc3r8i99-chromedriver-122.0.6261.94"
         }
       }
     },
     "cocoapods@latest": {
-      "last_modified": "2024-02-10T18:15:24Z",
-      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#cocoapods",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#cocoapods",
       "source": "devbox-search",
       "version": "1.15.1",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/rkma2q5cc1m4yxhcp2bhf20xbx0hijph-cocoapods-1.15.1"
+          "store_path": "/nix/store/x7xnz1hciagnap3cyf0rlzphcbhyi0df-cocoapods-1.15.1"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/21cbdd90j5bl1smswf95yqh0i9agcq7y-cocoapods-1.15.1"
+          "store_path": "/nix/store/9k1v24z69fqfrzshcg0an8mk9s081iiq-cocoapods-1.15.1"
         }
       }
     },
     "geckodriver@latest": {
-      "last_modified": "2024-02-10T18:15:24Z",
-      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#geckodriver",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#geckodriver",
       "source": "devbox-search",
       "version": "0.34.0",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/pkszy8snvzs1smnnc2m49s8455n6ri3k-geckodriver-0.34.0"
+          "store_path": "/nix/store/9riwxylxy55ch2k5y4hf0xwcj3d5m8qv-geckodriver-0.34.0"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/nl943vr2696aa1dh1pdzkr6610k1b4iv-geckodriver-0.34.0"
+          "store_path": "/nix/store/bv00k8snr9hbpsmmv2mwp9cjshd85wsm-geckodriver-0.34.0"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/sb7gn4r8fi5sfb612b687h599602z8lj-geckodriver-0.34.0"
+          "store_path": "/nix/store/1z70wal461pvv5hq9kgc0kdd99ddd823-geckodriver-0.34.0"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/0qmba5hchr7qqwllcmsy5b13ay5qwa0v-geckodriver-0.34.0"
+          "store_path": "/nix/store/cnl2rqmsvlwh5wbfpxk4xdrr75sf8smn-geckodriver-0.34.0"
         }
       }
     },
     "jdk11@latest": {
-      "last_modified": "2024-02-10T18:15:24Z",
-      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#jdk11",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#jdk11",
       "source": "devbox-search",
       "version": "11.0.22",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/jg1l0kac2mrs9f2khyzzq5ra8mwa826j-zulu-ca-jdk-11.0.22"
+          "store_path": "/nix/store/2q2fzibax1y57529lvfjvkzm254v0aq0-zulu-ca-jdk-11.0.22"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/apsgmz95l6l36z7irdnvvb6l0gjc2rcg-zulu-ca-jdk-11.0.22"
+          "store_path": "/nix/store/s57xi82dq9a3vwrdxdpkp15ywmdhpsi6-zulu-ca-jdk-11.0.22"
         }
       }
     },
     "maestro@latest": {
-      "last_modified": "2024-02-17T16:08:43Z",
-      "resolved": "github:NixOS/nixpkgs/52e1f314725b09b354336d17c7b8bd2442b7b8e4#maestro",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#maestro",
       "source": "devbox-search",
       "version": "1.36.0",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/b3003h5psavh4vk3rfrcxwn3zii3k38l-maestro-1.36.0"
+          "store_path": "/nix/store/0hbxgnrxswwx8g6x6fix05hdhmkm49n2-maestro-1.36.0"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/9d990vj7y9ar3cp4n1ibvn8j2frcc9v9-maestro-1.36.0"
+          "store_path": "/nix/store/4wcx421kj2vig46y2kq6vsb7598h6fh3-maestro-1.36.0"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/znlw4z32rfgjkqqdrxdmpr9isfkbw13p-maestro-1.36.0"
+          "store_path": "/nix/store/222df8q8n9485ascmgsx21r73ir491sc-maestro-1.36.0"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/6p56qhqkdp0lpxyw1mpckxildnrsdxpm-maestro-1.36.0"
+          "store_path": "/nix/store/aaj8ndy6fzsaymlrx8zgk58vj1iccvg5-maestro-1.36.0"
         }
       }
     },
@@ -133,22 +133,22 @@
       }
     },
     "process-compose@latest": {
-      "last_modified": "2024-02-15T12:53:33Z",
-      "resolved": "github:NixOS/nixpkgs/085589047343aad800c4d305cf7b98e8a3d51ae2#process-compose",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#process-compose",
       "source": "devbox-search",
       "version": "0.85.0",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/2z9bjhljfbg5zxqa0wgc9yrslkaqzplq-process-compose-0.85.0"
+          "store_path": "/nix/store/4dq6scbc7l3w2g0dmh6d8q504fjijix4-process-compose-0.85.0"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/6c711qjsk2bp6rrvhclf40923p07b60f-process-compose-0.85.0"
+          "store_path": "/nix/store/pcz9yjklndisywcka19ixmfs7p2fcsn3-process-compose-0.85.0"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/zjgkr8878azjl4rcj9imwysccmirsa24-process-compose-0.85.0"
+          "store_path": "/nix/store/zji02yi06zzmmhxbrp8yzx2dhp16bz9f-process-compose-0.85.0"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/l3aal8y0hmc6jajr1q8ilkafiam21jsy-process-compose-0.85.0"
+          "store_path": "/nix/store/c536km4xhmsipr60n8a314vfhc3kwbxd-process-compose-0.85.0"
         }
       }
     },
@@ -174,22 +174,22 @@
       }
     },
     "xcode-install@latest": {
-      "last_modified": "2024-02-10T18:15:24Z",
-      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#xcode-install",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#xcode-install",
       "source": "devbox-search",
       "version": "2.6.8",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/31wbybi1ijhgczcd7h1lb40dyxpsr560-xcode-install-2.6.8"
+          "store_path": "/nix/store/y05l48gsak8jcgh1hb2pkifzd0463ili-xcode-install-2.6.8"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/66vhsdsmclf3rcfhydrwxpy05yda36a3-xcode-install-2.6.8"
+          "store_path": "/nix/store/wjlp7ln2k3wxi99n9qv14m3hcal1jc99-xcode-install-2.6.8"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/n91lpkd2jcdi2b5x01l6nln8pj7pqb1m-xcode-install-2.6.8"
+          "store_path": "/nix/store/jhps2sgn6g742rlrq8ky39rr9qhf4r6x-xcode-install-2.6.8"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/n37rjpnka1qv91rk51hfnz41qpds1shq-xcode-install-2.6.8"
+          "store_path": "/nix/store/216drrnmqz2413an7dnpdlsrdpib10mq-xcode-install-2.6.8"
         }
       }
     }
