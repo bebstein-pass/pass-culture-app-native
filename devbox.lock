@@ -1,54 +1,6 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "bundler@latest": {
-      "last_modified": "2024-03-22T11:26:23Z",
-      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#bundler",
-      "source": "devbox-search",
-      "version": "2.5.6",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/lq82zm72hm2irpvs39kvxvgvi5jwfffj-bundler-2.5.6",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/lq82zm72hm2irpvs39kvxvgvi5jwfffj-bundler-2.5.6"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/vdyl86x7f12x22vhj0w5g1w7fpxaiylv-bundler-2.5.6",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/vdyl86x7f12x22vhj0w5g1w7fpxaiylv-bundler-2.5.6"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/gaj2vnvw9lcwhr8903vzwq7dzgnzvwcy-bundler-2.5.6",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/gaj2vnvw9lcwhr8903vzwq7dzgnzvwcy-bundler-2.5.6"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/6hfjqjbiiv86p7xappkd8hzh9nj3ki3n-bundler-2.5.6",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/6hfjqjbiiv86p7xappkd8hzh9nj3ki3n-bundler-2.5.6"
-        }
-      }
-    },
     "chromedriver@latest": {
       "last_modified": "2024-03-27T09:47:59Z",
       "resolved": "github:NixOS/nixpkgs/2230a20f2b5a14f2db3d7f13a2dc3c22517e790b#chromedriver",
@@ -56,62 +8,13 @@
       "version": "123.0.6312.86",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/xi865sk3vxs3aglnzhpa08bv3gzvb55r-chromedriver-123.0.6312.86",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/xi865sk3vxs3aglnzhpa08bv3gzvb55r-chromedriver-123.0.6312.86"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/kpsy7rabs37kahb4r6b9gdh0h9f68g9l-chromedriver-123.0.6312.86",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/kpsy7rabs37kahb4r6b9gdh0h9f68g9l-chromedriver-123.0.6312.86"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/4d82byg1zcpx16lrsvmsvlh5n8ap9s0p-chromedriver-123.0.6312.86",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/4d82byg1zcpx16lrsvmsvlh5n8ap9s0p-chromedriver-123.0.6312.86"
-        }
-      }
-    },
-    "cocoapods@latest": {
-      "last_modified": "2024-03-22T11:26:23Z",
-      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#cocoapods",
-      "source": "devbox-search",
-      "version": "1.15.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hias9sgjsdrpvlcb37jga636bgnl58p5-cocoapods-1.15.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/hias9sgjsdrpvlcb37jga636bgnl58p5-cocoapods-1.15.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/6qh0366v5ghbz4wga6hhn49c5x4d911z-cocoapods-1.15.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/6qh0366v5ghbz4wga6hhn49c5x4d911z-cocoapods-1.15.2"
         }
       }
     },
@@ -122,43 +25,15 @@
       "version": "0.34.0",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/4clgyg6s4s8ipzkby2axicybspca9jz8-geckodriver-0.34.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/4clgyg6s4s8ipzkby2axicybspca9jz8-geckodriver-0.34.0"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/mbbaik3xfyryar87xxmb8j18ysf6c5gl-geckodriver-0.34.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/mbbaik3xfyryar87xxmb8j18ysf6c5gl-geckodriver-0.34.0"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/s4a1wnr63gszfzg4qrj48ix47aj0sjkz-geckodriver-0.34.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/s4a1wnr63gszfzg4qrj48ix47aj0sjkz-geckodriver-0.34.0"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/f3rk32pnyvp5qfmbimz9y8i4lyppfd3n-geckodriver-0.34.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/f3rk32pnyvp5qfmbimz9y8i4lyppfd3n-geckodriver-0.34.0"
         }
       }
@@ -170,23 +45,9 @@
       "version": "11.0.22",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/gjyb8q6r4f4s8whf9zigg4j5rxjyb0yv-zulu-ca-jdk-11.0.22",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/gjyb8q6r4f4s8whf9zigg4j5rxjyb0yv-zulu-ca-jdk-11.0.22"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/rcs0h593a7scmkammhn9wihhfwp1ajgr-zulu-ca-jdk-11.0.22",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/rcs0h593a7scmkammhn9wihhfwp1ajgr-zulu-ca-jdk-11.0.22"
         }
       }
@@ -198,92 +59,16 @@
       "version": "1.36.0",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/fad2h9d9p0bz50flzml17lssqsv9hs9g-maestro-1.36.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/fad2h9d9p0bz50flzml17lssqsv9hs9g-maestro-1.36.0"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/mwi8k4nxp1mclrgvawhk3w7iw2hnww1i-maestro-1.36.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/mwi8k4nxp1mclrgvawhk3w7iw2hnww1i-maestro-1.36.0"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/fdgqr1hgsnr21zq6y56a2z8n3vylf6rs-maestro-1.36.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/fdgqr1hgsnr21zq6y56a2z8n3vylf6rs-maestro-1.36.0"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/ihbk593i1v2siqh4cxwzq6s1i4mglhmp-maestro-1.36.0",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/ihbk593i1v2siqh4cxwzq6s1i4mglhmp-maestro-1.36.0"
-        }
-      }
-    },
-    "nodePackages_latest.yarn@latest": {
-      "last_modified": "2024-04-02T02:53:36Z",
-      "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#nodePackages_latest.yarn",
-      "source": "devbox-search",
-      "version": "1.22.22",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/f9bzgb677d5cha13f8kwsjrmk6wba3af-yarn-1.22.22",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/f9bzgb677d5cha13f8kwsjrmk6wba3af-yarn-1.22.22"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/35ddskph8l2mw01pf3k80bxpjw6nqxm1-yarn-1.22.22",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/35ddskph8l2mw01pf3k80bxpjw6nqxm1-yarn-1.22.22"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/b4nld98qjm5k7k55c169i4mfm6qvcibr-yarn-1.22.22",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/b4nld98qjm5k7k55c169i4mfm6qvcibr-yarn-1.22.22"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/159xfxvk8wxs5ha6j3zll68gy663znjk-yarn-1.22.22",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/159xfxvk8wxs5ha6j3zll68gy663znjk-yarn-1.22.22"
         }
       }
     },
@@ -295,59 +80,15 @@
       "version": "20.10.0",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/m8s1dj96nbackrk4gk1bsn8hlfcggg4b-nodejs-20.10.0",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/bz3b8fdv6wimcinaabk7xaxgz2im5br2-nodejs-20.10.0-libv8"
-            }
-          ],
           "store_path": "/nix/store/m8s1dj96nbackrk4gk1bsn8hlfcggg4b-nodejs-20.10.0"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/n0i45l9cma3yyv6jqkd450xa7aqlxa2m-nodejs-20.10.0",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/7x3j6m1blyp7j4sg9i0p3qpmzax5m63l-nodejs-20.10.0-libv8"
-            }
-          ],
           "store_path": "/nix/store/n0i45l9cma3yyv6jqkd450xa7aqlxa2m-nodejs-20.10.0"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/ni7ks4fvk23gz4ik4x0kgpjmiqbzan30-nodejs-20.10.0",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/3kpq8xm7g33i1dcqhhfr1wlx503zr9cw-nodejs-20.10.0-libv8"
-            }
-          ],
           "store_path": "/nix/store/ni7ks4fvk23gz4ik4x0kgpjmiqbzan30-nodejs-20.10.0"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hdq16s6vq9smhmcyl4ipmwfp9f2558rc-nodejs-20.10.0",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/k82l5mnknxcab0595j4r7filvdl3lj77-nodejs-20.10.0-libv8"
-            }
-          ],
           "store_path": "/nix/store/hdq16s6vq9smhmcyl4ipmwfp9f2558rc-nodejs-20.10.0"
         }
       }
@@ -359,43 +100,15 @@
       "version": "1.0.1",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/mbd8382r66vjr18wmd56h3md15sm9hry-process-compose-1.0.1",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/mbd8382r66vjr18wmd56h3md15sm9hry-process-compose-1.0.1"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/gnfxy1fb6kny4wam8418pq97nbffqazh-process-compose-1.0.1",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/gnfxy1fb6kny4wam8418pq97nbffqazh-process-compose-1.0.1"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/9rpynya6z93hxxlpnsm4gbd885wbc8as-process-compose-1.0.1",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/9rpynya6z93hxxlpnsm4gbd885wbc8as-process-compose-1.0.1"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/87201nn5kgw2np93prkg5wbpc09z7sav-process-compose-1.0.1",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/87201nn5kgw2np93prkg5wbpc09z7sav-process-compose-1.0.1"
         }
       }
@@ -408,45 +121,12 @@
       "version": "2.7.5",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/inhgi4ksqzqnjk6v9fa49fgdf0zymmpn-ruby-2.7.5",
-              "default": true
-            },
-            {
-              "name": "devdoc",
-              "path": "/nix/store/39nj3bamlk15s2fxgvyz132xa1mzv279-ruby-2.7.5-devdoc"
-            }
-          ],
           "store_path": "/nix/store/inhgi4ksqzqnjk6v9fa49fgdf0zymmpn-ruby-2.7.5"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/0m1x14n35s91mj33jk0sa4y68i5hdcfk-ruby-2.7.5",
-              "default": true
-            },
-            {
-              "name": "devdoc",
-              "path": "/nix/store/bm1vvw4zmg0lsx0imvnp9qsv5mcvgb8y-ruby-2.7.5-devdoc"
-            }
-          ],
           "store_path": "/nix/store/0m1x14n35s91mj33jk0sa4y68i5hdcfk-ruby-2.7.5"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/dsnym6kh9jy2wl020jphwlm9kwp3w23p-ruby-2.7.5",
-              "default": true
-            },
-            {
-              "name": "devdoc",
-              "path": "/nix/store/8axhwqn26rnj14mz0i8wrn0kwp3wyf98-ruby-2.7.5-devdoc"
-            }
-          ],
           "store_path": "/nix/store/dsnym6kh9jy2wl020jphwlm9kwp3w23p-ruby-2.7.5"
         }
       }
@@ -458,43 +138,15 @@
       "version": "2.6.8",
       "systems": {
         "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hrxj8khrhhq1xr6kml7v57rw2d8qnisn-xcode-install-2.6.8",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/hrxj8khrhhq1xr6kml7v57rw2d8qnisn-xcode-install-2.6.8"
         },
         "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/q833nv95f9sjr9d5sx114xhdsy8l6jwk-xcode-install-2.6.8",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/q833nv95f9sjr9d5sx114xhdsy8l6jwk-xcode-install-2.6.8"
         },
         "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/6z60x22ffbip4m963ain1qwxi47j2frb-xcode-install-2.6.8",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/6z60x22ffbip4m963ain1qwxi47j2frb-xcode-install-2.6.8"
         },
         "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/pzv5hrv3js5jn1m83mw1ymdvs409p44c-xcode-install-2.6.8",
-              "default": true
-            }
-          ],
           "store_path": "/nix/store/pzv5hrv3js5jn1m83mw1ymdvs409p44c-xcode-install-2.6.8"
         }
       }

@@ -3,13 +3,10 @@
     "nodejs@20.10.0",
     "ruby@2.7.5",
     "process-compose@latest",
-    "bundler@latest",
-    "nodePackages_latest.yarn@latest",
     "chromedriver@latest",
     "geckodriver@latest",
     "maestro@latest",
     "xcode-install@latest",
     "jdk11@latest",
-    "cocoapods@latest"
-  ]
+  ],
 }
