@@ -137,3 +137,5 @@ scripts/dead_code_current.txt
 
 # SWC cache
 .swc/
+
+.direnv/
