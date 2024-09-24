@@ -2,7 +2,7 @@ import React, { FunctionComponent, useEffect } from 'react'
 import { ErrorBoundary } from 'react-error-boundary'
 import 'react-native-gesture-handler' // @react-navigation
 import 'react-native-get-random-values' // required for `uuid` module to work
-import { LogBox, Platform, StatusBar } from 'react-native'
+import { Appearance, LogBox, Platform, StatusBar } from 'react-native'
 import CodePush from 'react-native-code-push'
 
 // if __DEV__ import if you want to debug
@@ -79,6 +79,11 @@ const App: FunctionComponent = function () {
       offlineAccess: true,
     })
   }, [])
+
+  const colorScheme = Appearance.getColorScheme()
+  if (colorScheme === 'dark') {
+    // Use dark color scheme
+  }
 
   return (
     <RemoteConfigProvider>

@@ -159,7 +159,10 @@ export const VerticalVideoPlayer: React.FC<VideoPlayerProps> = ({
           style={{ height: playerHeight - PLAYER_CONTROLS_HEIGHT }}
           start={{ x: 0, y: 0.9 }}
           end={{ x: 0, y: 1 }}
-          colors={[colorAlpha(theme.colors.black, 0.9), colorAlpha(theme.colors.black, 0.9)]}>
+          colors={[
+            colorAlpha(theme.uniqueColors.black, 0.9),
+            colorAlpha(theme.uniqueColors.black, 0.9),
+          ]}>
           <ButtonsContainer>
             <IconContainer>
               <StyledPlayIcon />
@@ -331,7 +334,7 @@ const StyledYoutubePlayer = styled(YouTubePlayer).attrs({
 })``
 
 const StyledCaption = styled(Typo.Caption)(({ theme }) => ({
-  color: theme.colors.white,
+  color: theme.uniqueColors.white,
   textAlign: 'center',
 }))
 

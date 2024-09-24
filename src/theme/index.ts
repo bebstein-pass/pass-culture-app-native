@@ -222,6 +222,9 @@ export const theme = {
     brand: UniqueColors.BRAND,
     brandDark: UniqueColors.BRAND_DARK,
     greenDisabled: UniqueColors.GREEN_DISABLED,
+    white: UniqueColors.WHITE,
+    black: UniqueColors.BLACK,
+    specificGrey: UniqueColors.SPECIFIC_GREY,
   },
   breakpoints: {
     xxs: Breakpoints.XXS,
@@ -527,7 +530,7 @@ export const theme = {
     linearGradient: {
       iconSize: iconSizes.small,
       iconColor: ColorsEnum.WHITE,
-      textColor: ColorsEnum.WHITE,
+      textColor: UniqueColors.WHITE,
     },
     scrollButton: {
       size: getSpacing(10),

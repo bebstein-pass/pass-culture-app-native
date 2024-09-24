@@ -48,7 +48,7 @@ const ButtonWithCaptionContainer = styled.View({
 })
 
 const ButtonCaption = styled(Typo.Caption)(({ theme }) => ({
-  color: theme.colors.white,
+  color: theme.uniqueColors.white,
   textAlign: 'center',
 }))
 

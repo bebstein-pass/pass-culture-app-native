@@ -111,7 +111,7 @@ const Thumbnail = styled.ImageBackground({
 })
 
 const BlackView = styled.View(({ theme }) => ({
-  backgroundColor: colorAlpha(theme.colors.black, 0.6),
+  backgroundColor: colorAlpha(theme.uniqueColors.black, 0.6),
   height: THUMBNAIL_HEIGHT,
   justifyContent: 'center',
 }))
@@ -124,7 +124,7 @@ const TextContainer = styled.View({
 })
 
 const VideoTitle = styled(Typo.Title3)(({ theme }) => ({
-  color: theme.colors.white,
+  color: theme.uniqueColors.white,
   textAlign: 'center',
   textTransform: 'uppercase',
   fontSize: getSpacing(6.5),
