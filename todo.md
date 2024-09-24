@@ -38,7 +38,7 @@
 - [ ] gérer les blocks des catégories
 - [ ] ne pas oublier de gérer les home n-1 avec les couleurs hardcodées (suppression ou modification si on a le temps)
       search landing :
-  - [ ] image carte (attente PNG Design)
+  - [x] image carte (attente PNG Design)
   - [ ] image header (attente PNG Design)
   - [ ] Offre - bouton plus d'options à retravailler en dark mode
   - [ ] Offre - séparateur à voir en dark mode
