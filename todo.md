@@ -34,7 +34,8 @@
 ### Could Have
 
 - [x] corriger toutes les couleurs hardcodées
-- [ ] s’adapter en fonction des préférences systèmes
+- [x] s’adapter en fonction des préférences systèmes
+- [ ] gérer les blocks des catégories
 - [ ] ne pas oublier de gérer les home n-1 avec les couleurs hardcodées (suppression ou modification si on a le temps)
       search landing :
   - [ ] image carte (attente PNG Design)
