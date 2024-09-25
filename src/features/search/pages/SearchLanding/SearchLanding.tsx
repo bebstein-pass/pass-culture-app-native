@@ -3,7 +3,7 @@ import { SearchClient } from 'algoliasearch'
 import React, { useCallback } from 'react'
 import { Configure, InstantSearch } from 'react-instantsearch-core'
 // eslint-disable-next-line no-restricted-imports
-import { ImageBackground, StatusBar } from 'react-native'
+import { StatusBar } from 'react-native'
 import AlgoliaSearchInsights from 'search-insights'
 import styled from 'styled-components/native'
 import { v4 as uuidv4 } from 'uuid'
@@ -22,8 +22,6 @@ import { useNetInfoContext } from 'libs/network/NetInfoWrapper'
 import { OfflinePage } from 'libs/network/OfflinePage'
 import { Form } from 'ui/components/Form'
 import { Spacer } from 'ui/theme'
-
-import GradientHeader from '../../images/GradientHeader.png'
 
 const searchInputID = uuidv4()
 const searchClient: SearchClient = {
@@ -95,16 +93,8 @@ export const SearchLanding = () => {
           indexName={suggestionsIndex}
           insights={{ insightsClient: AlgoliaSearchInsights }}>
           <Configure hitsPerPage={5} clickAnalytics />
-          {enableSearchLandingHeader ? (
-            <ImageBackground
-              source={GradientHeader}
-              resizeMode="stretch"
-              testID="searchLandingHeader">
-              {renderHeader()}
-            </ImageBackground>
-          ) : (
-            renderHeader()
-          )}
+
+          {renderHeader()}
           {isFocusOnSuggestions ? (
             <SearchSuggestions
               queryHistory={queryHistory}

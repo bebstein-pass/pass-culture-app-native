@@ -46,14 +46,16 @@ import { ThemeProvider } from 'libs/styled'
 import { theme } from 'theme'
 import { SnackBarProvider } from 'ui/components/snackBar/SnackBarContext'
 
-LogBox.ignoreLogs([
-  'Setting a timer',
-  'OfferNotFoundError', // custom error
-  // The following warning is caused by TabNavigationContext which is updated by the `tabbar` prop
-  // of TabNavigator. As of today, no bug has been observed which seems related to the warning.
-  'Cannot update a component',
-  'EventEmitter.removeListener',
-])
+// LogBox.ignoreLogs([
+//   'Setting a timer',
+//   'OfferNotFoundError', // custom error
+//   // The following warning is caused by TabNavigationContext which is updated by the `tabbar` prop
+//   // of TabNavigator. As of today, no bug has been observed which seems related to the warning.
+//   'Cannot update a component',
+//   'EventEmitter.removeListener',
+// ])
+
+LogBox.ignoreAllLogs()
 
 const App: FunctionComponent = function () {
   useEffect(() => {

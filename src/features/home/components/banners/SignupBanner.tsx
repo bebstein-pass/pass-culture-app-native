@@ -54,6 +54,7 @@ const StyledBicolorUnlock = styled(BicolorUnlock).attrs(({ theme }) => ({
 
 const StyledSystemBannerBicolorUnlock = styled(BicolorUnlock).attrs(({ theme }) => ({
   color: theme.colors.secondaryLight200,
+  color2: theme.colors.secondaryLight200,
 }))``
 
 const StyledButtonText = styled(Typo.ButtonText)(({ theme }) => ({
