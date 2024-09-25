@@ -38,7 +38,7 @@ export const newColorMapping: Record<
   Gold: {
     border: ColorsEnum.GOLD_DARK,
     text: ColorsEnum.LILAC_DARK,
-    fill: ColorsEnum.GOLD_LIGHT_200,
+    fill: ColorsEnum.GOLD_LIGHT_100,
   },
   Coral: {
     border: ColorsEnum.CORAL_DARK,

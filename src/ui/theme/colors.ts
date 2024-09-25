@@ -1,58 +1,34 @@
-export enum ColorsEnum {
-  ACCENT = '#0066ff',
-  ATTENTION = '#ffea00',
-  ATTENTION_LIGHT = '#fff7cf',
-  BLACK = '#161617',
-  ERROR = '#b60025',
-  ERROR_LIGHT = '#fce8ec',
-  GREEN_VALID = '#15884f',
-  GREEN_LIGHT = '#2cbe6e',
-  GREY_DARK = '#696A6F',
-  GREY_SEMI_DARK = '#90949D',
-  GREY_MEDIUM = '#CBCDD2',
-  GREY_LIGHT = '#F1F1F4',
-  BROWN_LIGHT = '#8c7a74',
-  PRIMARY = '#eb0055',
-  PRIMARY_DISABLED = '#ff99be',
-  PRIMARY_DARK = '#c10046',
-  SECONDARY = '#320096',
-  SECONDARY_LIGHT_100 = '#f3ecff',
-  SECONDARY_LIGHT_200 = '#6123DF',
-  SECONDARY_DARK = '#25026C',
-  TERTIARY = '#cc1673',
-  TRANSPARENT = 'transparent',
-  WHITE = '#ffffff',
-  GOLD_DARK = '#B85901',
-  GOLD = '#FA9F16',
-  GOLD_LIGHT_200 = '#FBDBAC',
-  GOLD_LIGHT_100 = '#FFF5D8',
-  AQUAMARINE_DARK = '#0E8474',
-  AQUAMARINE = '#27DCA8',
-  AQUAMARINE_LIGHT = '#DBFFEA',
-  SKY_BLUE_DARK = '#0E78B7',
-  SKY_BLUE = '#20C5E9',
-  SKY_BLUE_LIGHT = '#D6F8FF',
-  DEEP_PINK_DARK = '#C01371',
-  DEEP_PINK = '#EC3478',
-  DEEP_PINK_LIGHT = '#FFD7E9',
-  CORAL_DARK = '#CA3F13',
-  CORAL = '#F8733D',
-  CORAL_LIGHT = '#FFDECC',
-  LILAC_DARK = '#8337E9',
-  LILAC = '#AD87FF',
-  LILAC_LIGHT = '#EAE3FF',
+import { Appearance } from 'react-native'
+
+// eslint-disable-next-line no-restricted-imports
+// eslint-disable-next-line no-restricted-imports
+// eslint-disable-next-line no-restricted-imports
+
+import {
+  ACTIVE_OPACITY as DARK_ACTIVE_OPACITY,
+  ColorsEnum as DarkColorsEnum,
+  UniqueColors as DarkUniqueColors,
+} from 'ui/theme/darkColors'
+import {
+  ACTIVE_OPACITY as DEFAULT_ACTIVE_OPACITY,
+  ColorsEnum as DefaultColorsEnum,
+  UniqueColors as DefaultUniqueColors,
+} from 'ui/theme/defaultColors'
+// eslint-disable-next-line no-restricted-imports
+
+let ColorsEnum: typeof DefaultColorsEnum
+let ACTIVE_OPACITY: typeof DEFAULT_ACTIVE_OPACITY
+let UniqueColors: typeof DefaultUniqueColors
+
+const colorScheme = Appearance.getColorScheme()
+if (colorScheme === 'dark') {
+  ColorsEnum = DarkColorsEnum
+  ACTIVE_OPACITY = DARK_ACTIVE_OPACITY
+  UniqueColors = DarkUniqueColors
+} else {
+  ColorsEnum = DefaultColorsEnum
+  ACTIVE_OPACITY = DEFAULT_ACTIVE_OPACITY
+  UniqueColors = DefaultUniqueColors
 }
-export enum UniqueColors {
-  BRAND = '#870087',
-  BRAND_DARK = '#070C36',
-  GREEN_DISABLED = '#b8d7c1',
-  GREY_OVERLAY = '#00000080',
-  BACKGROUND_COLOR = '#DDDDDD',
-  BACKGROUND_SURFACE = '#212121',
-  FOREGROUND_COLOR = '#EEEEEE',
-  TAB_BAR = '#fffffff8',
-  WHITE = '#FFF',
-  BLACK = '#171718',
-  SPECIFIC_GREY = '#2C2C2E',
-}
-export const ACTIVE_OPACITY = 0.7
+
+export { ColorsEnum, ACTIVE_OPACITY, UniqueColors }

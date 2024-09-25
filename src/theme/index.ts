@@ -1,5 +1,5 @@
 import { theme as designTokens } from 'design-system/dist/build/ts'
-import { Appearance, Platform } from 'react-native'
+import { Platform } from 'react-native'
 
 // eslint-disable-next-line no-restricted-imports
 import { isMobileDeviceDetectOnWeb, isTabletDeviceDetectOnWeb } from 'libs/react-device-detect'
@@ -8,6 +8,7 @@ import { ModalSpacing } from 'ui/components/modals/enum'
 import { getSpacing, getSpacingString } from 'ui/theme'
 import { buttonHeights } from 'ui/theme/buttonHeights'
 // eslint-disable-next-line no-restricted-imports
+import { ACTIVE_OPACITY, ColorsEnum, UniqueColors } from 'ui/theme/colors'
 import {
   BOTTOM_CONTENT_PAGE_OFFSET_TOP_HEIGHT_DESKTOP_TABLET,
   DESKTOP_CONTENT_MAX_WIDTH,
@@ -17,36 +18,11 @@ import {
   TAB_BAR_COMP_HEIGHT,
   TAB_BAR_COMP_HEIGHT_V2,
 } from 'ui/theme/constants'
-import {
-  ACTIVE_OPACITY as DARK_ACTIVE_OPACITY,
-  ColorsEnum as DarkColorsEnum,
-  UniqueColors as DarkUniqueColors,
-} from 'ui/theme/darkColors'
-import {
-  ACTIVE_OPACITY as DEFAULT_ACTIVE_OPACITY,
-  ColorsEnum as DefaultColorsEnum,
-  UniqueColors as DefaultUniqueColors,
-} from 'ui/theme/defaultColors'
 import { BorderRadiusEnum, Breakpoints } from 'ui/theme/grid'
 import { iconSizes } from 'ui/theme/iconSizes'
 import { illustrationSizes } from 'ui/theme/illustrationSizes'
 // eslint-disable-next-line no-restricted-imports
 import { zIndex } from 'ui/theme/layers'
-
-let ColorsEnum
-let ACTIVE_OPACITY
-let UniqueColors
-
-const colorScheme = Appearance.getColorScheme()
-if (colorScheme === 'dark') {
-  ColorsEnum = DarkColorsEnum
-  ACTIVE_OPACITY = DARK_ACTIVE_OPACITY
-  UniqueColors = DarkUniqueColors
-} else {
-  ColorsEnum = DefaultColorsEnum
-  ACTIVE_OPACITY = DEFAULT_ACTIVE_OPACITY
-  UniqueColors = DefaultUniqueColors
-}
 
 const isNative = Platform.OS === 'ios' || Platform.OS === 'android'
 const isTouchWeb = Platform.OS === 'web' && (isMobileDeviceDetectOnWeb || isTabletDeviceDetectOnWeb)
